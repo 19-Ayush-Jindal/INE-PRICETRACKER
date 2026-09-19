@@ -1,0 +1,21 @@
+{
+  "name": "ine-price-tracker-backend",
+  "version": "1.0.0",
+  "description": "Express API + Playwright scraper for tracking product prices on demo.inelabteamdev.com",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "postinstall": "playwright install --with-deps chromium",
+    "build-index": "node scripts/build-product-index.js",
+    "scrape-headed": "node scripts/run-headed-demo.js",
+    "test-scrape": "node scripts/test-scrape-batch.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "pg": "^8.12.0",
+    "playwright": "^1.47.0"
+  }
+}

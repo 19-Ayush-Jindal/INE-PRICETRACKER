@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "1",
+    "name": "Nordkraft Headphones Pro",
+    "category": "AUDIO"
+  },
+  {
+    "id": "2",
+    "name": "Vantablack Earbuds Pro",
+    "category": "AUDIO"
+  },
+  {
+    "id": "3",
+    "name": "Larkspur Speaker Pro",
+    "category": "AUDIO"
+  },
+  {
+    "id": "4",
+    "name": "Helix Soundbar Pro",
+    "category": "AUDIO"
+  },
+  {
+    "id": "5",
+    "name": "Ironwood Microphone Pro",
+    "category": "AUDIO"
+  },
+  {
+    "id": "6",
+    "name": "Meridian Turntable Pro",
+    "category": "AUDIO"
+  },
+  {
+    "id": "7",
+    "name": "Cobalt Amplifier Pro",
+    "category": "AUDIO"
+  },
+  {
+    "id": "8",
+    "name": "Auralite Receiver Pro",
+    "category": "AUDIO"
+  },
+  {
+    "id": "9",
+    "name": "Vista Ultrabook Pro",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "10",
+    "name": "Amperage Notebook Pro",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "11",
+    "name": "Domus Workstation Pro",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "12",
+    "name": "Basecamp Cloudbook Pro",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "13",
+    "name": "Copperpot Convertible Pro",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "14",
+    "name": "Summit Creatorbook Pro",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "15",
+    "name": "Nordkraft Slimbook Pro",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "16",
+    "name": "Vantablack Gamebook Pro",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "17",
+    "name": "Larkspur Smartwatch Pro",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "18",
+    "name": "Helix Fitness Band Pro",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "19",
+    "name": "Ironwood Smart Ring Pro",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "20",
+    "name": "Meridian AR Glasses Pro",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "21",
+    "name": "Cobalt Running Watch Pro",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "22",
+    "name": "Auralite Sleep Tracker Pro",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "23",
+    "name": "Vista Field Watch Pro",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "24",
+    "name": "Amperage Dive Watch Pro",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "25",
+    "name": "Domus Monitor Pro",
+    "category": "MONITORS"
+  },
+  {
+    "id": "26",
+    "name": "Basecamp Ultrawide Pro",
+    "category": "MONITORS"
+  },
+  {
+    "id": "27",
+    "name": "Copperpot Portable Monitor Pro",
+    "category": "MONITORS"
+  },
+  {
+    "id": "28",
+    "name": "Summit Gaming Monitor Pro",
+    "category": "MONITORS"
+  },
+  {
+    "id": "29",
+    "name": "Nordkraft Pro Display Pro",
+    "category": "MONITORS"
+  },
+  {
+    "id": "30",
+    "name": "Vantablack Touch Monitor Pro",
+    "category": "MONITORS"
+  },
+  {
+    "id": "31",
+    "name": "Larkspur Curved Monitor Pro",
+    "category": "MONITORS"
+  },
+  {
+    "id": "32",
+    "name": "Helix Field Monitor Pro",
+    "category": "MONITORS"
+  },
+  {
+    "id": "33",
+    "name": "Ironwood Keyboard Pro",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "34",
+    "name": "Meridian Mouse Pro",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "35",
+    "name": "Cobalt Trackpad Pro",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "36",
+    "name": "Auralite Webcam Pro",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "37",
+    "name": "Vista Stream Controller Pro",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "38",
+    "name": "Amperage Numpad Pro",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "39",
+    "name": "Domus Graphics Tablet Pro",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "40",
+    "name": "Basecamp Docking Station Pro",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "41",
+    "name": "Copperpot Charger Pro",
+    "category": "POWER"
+  },
+  {
+    "id": "42",
+    "name": "Summit Power Bank Pro",
+    "category": "POWER"
+  },
+  {
+    "id": "43",
+    "name": "Nordkraft Charging Pad Pro",
+    "category": "POWER"
+  },
+  {
+    "id": "44",
+    "name": "Vantablack Surge Station Pro",
+    "category": "POWER"
+  },
+  {
+    "id": "45",
+    "name": "Larkspur Solar Charger Pro",
+    "category": "POWER"
+  },
+  {
+    "id": "46",
+    "name": "Helix USB Hub Pro",
+    "category": "POWER"
+  },
+  {
+    "id": "47",
+    "name": "Ironwood Cable Kit Pro",
+    "category": "POWER"
+  },
+  {
+    "id": "48",
+    "name": "Meridian Travel Adapter Pro",
+    "category": "POWER"
+  },
+  {
+    "id": "49",
+    "name": "Cobalt Thermostat Pro",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "50",
+    "name": "Auralite Smart Bulb Pro",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "51",
+    "name": "Vista Video Doorbell Pro",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "52",
+    "name": "Amperage Indoor Camera Pro",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "53",
+    "name": "Domus Smart Plug Pro",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "54",
+    "name": "Basecamp Motion Sensor Pro",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "55",
+    "name": "Copperpot Smart Lock Pro",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "56",
+    "name": "Summit Bridge Hub Pro",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "57",
+    "name": "Nordkraft Backpack Pro",
+    "category": "BAGS"
+  },
+  {
+    "id": "58",
+    "name": "Vantablack Messenger Bag Pro",
+    "category": "BAGS"
+  },
+  {
+    "id": "59",
+    "name": "Larkspur Sling Pro",
+    "category": "BAGS"
+  },
+  {
+    "id": "60",
+    "name": "Helix Hardshell Case Pro",
+    "category": "BAGS"
+  },
+  {
+    "id": "61",
+    "name": "Ironwood Sleeve Pro",
+    "category": "BAGS"
+  },
+  {
+    "id": "62",
+    "name": "Meridian Duffel Pro",
+    "category": "BAGS"
+  },
+  {
+    "id": "63",
+    "name": "Cobalt Tote Pro",
+    "category": "BAGS"
+  },
+  {
+    "id": "64",
+    "name": "Auralite Pouch Pro",
+    "category": "BAGS"
+  },
+  {
+    "id": "65",
+    "name": "Vista Kettle Pro",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "66",
+    "name": "Amperage Grinder Pro",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "67",
+    "name": "Domus Skillet Pro",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "68",
+    "name": "Basecamp Water Bottle Pro",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "69",
+    "name": "Copperpot Sous-Vide Wand Pro",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "70",
+    "name": "Summit Blender Pro",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "71",
+    "name": "Nordkraft Toaster Pro",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "72",
+    "name": "Vantablack Air Fryer Pro",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "73",
+    "name": "Larkspur Trail Runners Pro",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "74",
+    "name": "Helix Approach Shoe Pro",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "75",
+    "name": "Ironwood Recovery Slide Pro",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "76",
+    "name": "Meridian Waterproof Boot Pro",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "77",
+    "name": "Cobalt Sneaker Pro",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "78",
+    "name": "Auralite Hiking Boot Pro",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "79",
+    "name": "Vista Sandal Pro",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "80",
+    "name": "Amperage Cross Trainer Pro",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "81",
+    "name": "Domus Headphones Mini",
+    "category": "AUDIO"
+  },
+  {
+    "id": "82",
+    "name": "Basecamp Earbuds Mini",
+    "category": "AUDIO"
+  },
+  {
+    "id": "83",
+    "name": "Copperpot Speaker Mini",
+    "category": "AUDIO"
+  },
+  {
+    "id": "84",
+    "name": "Summit Soundbar Mini",
+    "category": "AUDIO"
+  },
+  {
+    "id": "85",
+    "name": "Nordkraft Microphone Mini",
+    "category": "AUDIO"
+  },
+  {
+    "id": "86",
+    "name": "Vantablack Turntable Mini",
+    "category": "AUDIO"
+  },
+  {
+    "id": "87",
+    "name": "Larkspur Amplifier Mini",
+    "category": "AUDIO"
+  },
+  {
+    "id": "88",
+    "name": "Helix Receiver Mini",
+    "category": "AUDIO"
+  },
+  {
+    "id": "89",
+    "name": "Ironwood Ultrabook Mini",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "90",
+    "name": "Meridian Notebook Mini",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "91",
+    "name": "Cobalt Workstation Mini",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "92",
+    "name": "Auralite Cloudbook Mini",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "93",
+    "name": "Vista Convertible Mini",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "94",
+    "name": "Amperage Creatorbook Mini",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "95",
+    "name": "Domus Slimbook Mini",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "96",
+    "name": "Basecamp Gamebook Mini",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "97",
+    "name": "Copperpot Smartwatch Mini",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "98",
+    "name": "Summit Fitness Band Mini",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "99",
+    "name": "Nordkraft Smart Ring Mini",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "100",
+    "name": "Vantablack AR Glasses Mini",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "101",
+    "name": "Larkspur Running Watch Mini",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "102",
+    "name": "Helix Sleep Tracker Mini",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "103",
+    "name": "Ironwood Field Watch Mini",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "104",
+    "name": "Meridian Dive Watch Mini",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "105",
+    "name": "Cobalt Monitor Mini",
+    "category": "MONITORS"
+  },
+  {
+    "id": "106",
+    "name": "Auralite Ultrawide Mini",
+    "category": "MONITORS"
+  },
+  {
+    "id": "107",
+    "name": "Vista Portable Monitor Mini",
+    "category": "MONITORS"
+  },
+  {
+    "id": "108",
+    "name": "Amperage Gaming Monitor Mini",
+    "category": "MONITORS"
+  },
+  {
+    "id": "109",
+    "name": "Domus Pro Display Mini",
+    "category": "MONITORS"
+  },
+  {
+    "id": "110",
+    "name": "Basecamp Touch Monitor Mini",
+    "category": "MONITORS"
+  },
+  {
+    "id": "111",
+    "name": "Copperpot Curved Monitor Mini",
+    "category": "MONITORS"
+  },
+  {
+    "id": "112",
+    "name": "Summit Field Monitor Mini",
+    "category": "MONITORS"
+  },
+  {
+    "id": "113",
+    "name": "Nordkraft Keyboard Mini",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "114",
+    "name": "Vantablack Mouse Mini",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "115",
+    "name": "Larkspur Trackpad Mini",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "116",
+    "name": "Helix Webcam Mini",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "117",
+    "name": "Ironwood Stream Controller Mini",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "118",
+    "name": "Meridian Numpad Mini",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "119",
+    "name": "Cobalt Graphics Tablet Mini",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "120",
+    "name": "Auralite Docking Station Mini",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "121",
+    "name": "Vista Charger Mini",
+    "category": "POWER"
+  },
+  {
+    "id": "122",
+    "name": "Amperage Power Bank Mini",
+    "category": "POWER"
+  },
+  {
+    "id": "123",
+    "name": "Domus Charging Pad Mini",
+    "category": "POWER"
+  },
+  {
+    "id": "124",
+    "name": "Basecamp Surge Station Mini",
+    "category": "POWER"
+  },
+  {
+    "id": "125",
+    "name": "Copperpot Solar Charger Mini",
+    "category": "POWER"
+  },
+  {
+    "id": "126",
+    "name": "Summit USB Hub Mini",
+    "category": "POWER"
+  },
+  {
+    "id": "127",
+    "name": "Nordkraft Cable Kit Mini",
+    "category": "POWER"
+  },
+  {
+    "id": "128",
+    "name": "Vantablack Travel Adapter Mini",
+    "category": "POWER"
+  },
+  {
+    "id": "129",
+    "name": "Larkspur Thermostat Mini",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "130",
+    "name": "Helix Smart Bulb Mini",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "131",
+    "name": "Ironwood Video Doorbell Mini",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "132",
+    "name": "Meridian Indoor Camera Mini",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "133",
+    "name": "Cobalt Smart Plug Mini",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "134",
+    "name": "Auralite Motion Sensor Mini",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "135",
+    "name": "Vista Smart Lock Mini",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "136",
+    "name": "Amperage Bridge Hub Mini",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "137",
+    "name": "Domus Backpack Mini",
+    "category": "BAGS"
+  },
+  {
+    "id": "138",
+    "name": "Basecamp Messenger Bag Mini",
+    "category": "BAGS"
+  },
+  {
+    "id": "139",
+    "name": "Copperpot Sling Mini",
+    "category": "BAGS"
+  },
+  {
+    "id": "140",
+    "name": "Summit Hardshell Case Mini",
+    "category": "BAGS"
+  },
+  {
+    "id": "141",
+    "name": "Nordkraft Sleeve Mini",
+    "category": "BAGS"
+  },
+  {
+    "id": "142",
+    "name": "Vantablack Duffel Mini",
+    "category": "BAGS"
+  },
+  {
+    "id": "143",
+    "name": "Larkspur Tote Mini",
+    "category": "BAGS"
+  },
+  {
+    "id": "144",
+    "name": "Helix Pouch Mini",
+    "category": "BAGS"
+  },
+  {
+    "id": "145",
+    "name": "Ironwood Kettle Mini",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "146",
+    "name": "Meridian Grinder Mini",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "147",
+    "name": "Cobalt Skillet Mini",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "148",
+    "name": "Auralite Water Bottle Mini",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "149",
+    "name": "Vista Sous-Vide Wand Mini",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "150",
+    "name": "Amperage Blender Mini",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "151",
+    "name": "Domus Toaster Mini",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "152",
+    "name": "Basecamp Air Fryer Mini",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "153",
+    "name": "Copperpot Trail Runners Mini",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "154",
+    "name": "Summit Approach Shoe Mini",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "155",
+    "name": "Nordkraft Recovery Slide Mini",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "156",
+    "name": "Vantablack Waterproof Boot Mini",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "157",
+    "name": "Larkspur Sneaker Mini",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "158",
+    "name": "Helix Hiking Boot Mini",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "159",
+    "name": "Ironwood Sandal Mini",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "160",
+    "name": "Meridian Cross Trainer Mini",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "161",
+    "name": "Cobalt Headphones Air",
+    "category": "AUDIO"
+  },
+  {
+    "id": "162",
+    "name": "Auralite Earbuds Air",
+    "category": "AUDIO"
+  },
+  {
+    "id": "163",
+    "name": "Vista Speaker Air",
+    "category": "AUDIO"
+  },
+  {
+    "id": "164",
+    "name": "Amperage Soundbar Air",
+    "category": "AUDIO"
+  },
+  {
+    "id": "165",
+    "name": "Domus Microphone Air",
+    "category": "AUDIO"
+  },
+  {
+    "id": "166",
+    "name": "Basecamp Turntable Air",
+    "category": "AUDIO"
+  },
+  {
+    "id": "167",
+    "name": "Copperpot Amplifier Air",
+    "category": "AUDIO"
+  },
+  {
+    "id": "168",
+    "name": "Summit Receiver Air",
+    "category": "AUDIO"
+  },
+  {
+    "id": "169",
+    "name": "Nordkraft Ultrabook Air",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "170",
+    "name": "Vantablack Notebook Air",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "171",
+    "name": "Larkspur Workstation Air",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "172",
+    "name": "Helix Cloudbook Air",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "173",
+    "name": "Ironwood Convertible Air",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "174",
+    "name": "Meridian Creatorbook Air",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "175",
+    "name": "Cobalt Slimbook Air",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "176",
+    "name": "Auralite Gamebook Air",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "177",
+    "name": "Vista Smartwatch Air",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "178",
+    "name": "Amperage Fitness Band Air",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "179",
+    "name": "Domus Smart Ring Air",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "180",
+    "name": "Basecamp AR Glasses Air",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "181",
+    "name": "Copperpot Running Watch Air",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "182",
+    "name": "Summit Sleep Tracker Air",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "183",
+    "name": "Nordkraft Field Watch Air",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "184",
+    "name": "Vantablack Dive Watch Air",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "185",
+    "name": "Larkspur Monitor Air",
+    "category": "MONITORS"
+  },
+  {
+    "id": "186",
+    "name": "Helix Ultrawide Air",
+    "category": "MONITORS"
+  },
+  {
+    "id": "187",
+    "name": "Ironwood Portable Monitor Air",
+    "category": "MONITORS"
+  },
+  {
+    "id": "188",
+    "name": "Meridian Gaming Monitor Air",
+    "category": "MONITORS"
+  },
+  {
+    "id": "189",
+    "name": "Cobalt Pro Display Air",
+    "category": "MONITORS"
+  },
+  {
+    "id": "190",
+    "name": "Auralite Touch Monitor Air",
+    "category": "MONITORS"
+  },
+  {
+    "id": "191",
+    "name": "Vista Curved Monitor Air",
+    "category": "MONITORS"
+  },
+  {
+    "id": "192",
+    "name": "Amperage Field Monitor Air",
+    "category": "MONITORS"
+  },
+  {
+    "id": "193",
+    "name": "Domus Keyboard Air",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "194",
+    "name": "Basecamp Mouse Air",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "195",
+    "name": "Copperpot Trackpad Air",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "196",
+    "name": "Summit Webcam Air",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "197",
+    "name": "Nordkraft Stream Controller Air",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "198",
+    "name": "Vantablack Numpad Air",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "199",
+    "name": "Larkspur Graphics Tablet Air",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "200",
+    "name": "Helix Docking Station Air",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "201",
+    "name": "Ironwood Charger Air",
+    "category": "POWER"
+  },
+  {
+    "id": "202",
+    "name": "Meridian Power Bank Air",
+    "category": "POWER"
+  },
+  {
+    "id": "203",
+    "name": "Cobalt Charging Pad Air",
+    "category": "POWER"
+  },
+  {
+    "id": "204",
+    "name": "Auralite Surge Station Air",
+    "category": "POWER"
+  },
+  {
+    "id": "205",
+    "name": "Vista Solar Charger Air",
+    "category": "POWER"
+  },
+  {
+    "id": "206",
+    "name": "Amperage USB Hub Air",
+    "category": "POWER"
+  },
+  {
+    "id": "207",
+    "name": "Domus Cable Kit Air",
+    "category": "POWER"
+  },
+  {
+    "id": "208",
+    "name": "Basecamp Travel Adapter Air",
+    "category": "POWER"
+  },
+  {
+    "id": "209",
+    "name": "Copperpot Thermostat Air",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "210",
+    "name": "Summit Smart Bulb Air",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "211",
+    "name": "Nordkraft Video Doorbell Air",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "212",
+    "name": "Vantablack Indoor Camera Air",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "213",
+    "name": "Larkspur Smart Plug Air",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "214",
+    "name": "Helix Motion Sensor Air",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "215",
+    "name": "Ironwood Smart Lock Air",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "216",
+    "name": "Meridian Bridge Hub Air",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "217",
+    "name": "Cobalt Backpack Air",
+    "category": "BAGS"
+  },
+  {
+    "id": "218",
+    "name": "Auralite Messenger Bag Air",
+    "category": "BAGS"
+  },
+  {
+    "id": "219",
+    "name": "Vista Sling Air",
+    "category": "BAGS"
+  },
+  {
+    "id": "220",
+    "name": "Amperage Hardshell Case Air",
+    "category": "BAGS"
+  },
+  {
+    "id": "221",
+    "name": "Domus Sleeve Air",
+    "category": "BAGS"
+  },
+  {
+    "id": "222",
+    "name": "Basecamp Duffel Air",
+    "category": "BAGS"
+  },
+  {
+    "id": "223",
+    "name": "Copperpot Tote Air",
+    "category": "BAGS"
+  },
+  {
+    "id": "224",
+    "name": "Summit Pouch Air",
+    "category": "BAGS"
+  },
+  {
+    "id": "225",
+    "name": "Nordkraft Kettle Air",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "226",
+    "name": "Vantablack Grinder Air",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "227",
+    "name": "Larkspur Skillet Air",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "228",
+    "name": "Helix Water Bottle Air",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "229",
+    "name": "Ironwood Sous-Vide Wand Air",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "230",
+    "name": "Meridian Blender Air",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "231",
+    "name": "Cobalt Toaster Air",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "232",
+    "name": "Auralite Air Fryer Air",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "233",
+    "name": "Vista Trail Runners Air",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "234",
+    "name": "Amperage Approach Shoe Air",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "235",
+    "name": "Domus Recovery Slide Air",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "236",
+    "name": "Basecamp Waterproof Boot Air",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "237",
+    "name": "Copperpot Sneaker Air",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "238",
+    "name": "Summit Hiking Boot Air",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "239",
+    "name": "Nordkraft Sandal Air",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "240",
+    "name": "Vantablack Cross Trainer Air",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "241",
+    "name": "Larkspur Headphones Max",
+    "category": "AUDIO"
+  },
+  {
+    "id": "242",
+    "name": "Helix Earbuds Max",
+    "category": "AUDIO"
+  },
+  {
+    "id": "243",
+    "name": "Ironwood Speaker Max",
+    "category": "AUDIO"
+  },
+  {
+    "id": "244",
+    "name": "Meridian Soundbar Max",
+    "category": "AUDIO"
+  },
+  {
+    "id": "245",
+    "name": "Cobalt Microphone Max",
+    "category": "AUDIO"
+  },
+  {
+    "id": "246",
+    "name": "Auralite Turntable Max",
+    "category": "AUDIO"
+  },
+  {
+    "id": "247",
+    "name": "Vista Amplifier Max",
+    "category": "AUDIO"
+  },
+  {
+    "id": "248",
+    "name": "Amperage Receiver Max",
+    "category": "AUDIO"
+  },
+  {
+    "id": "249",
+    "name": "Domus Ultrabook Max",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "250",
+    "name": "Basecamp Notebook Max",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "251",
+    "name": "Copperpot Workstation Max",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "252",
+    "name": "Summit Cloudbook Max",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "253",
+    "name": "Nordkraft Convertible Max",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "254",
+    "name": "Vantablack Creatorbook Max",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "255",
+    "name": "Larkspur Slimbook Max",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "256",
+    "name": "Helix Gamebook Max",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "257",
+    "name": "Ironwood Smartwatch Max",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "258",
+    "name": "Meridian Fitness Band Max",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "259",
+    "name": "Cobalt Smart Ring Max",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "260",
+    "name": "Auralite AR Glasses Max",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "261",
+    "name": "Vista Running Watch Max",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "262",
+    "name": "Amperage Sleep Tracker Max",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "263",
+    "name": "Domus Field Watch Max",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "264",
+    "name": "Basecamp Dive Watch Max",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "265",
+    "name": "Copperpot Monitor Max",
+    "category": "MONITORS"
+  },
+  {
+    "id": "266",
+    "name": "Summit Ultrawide Max",
+    "category": "MONITORS"
+  },
+  {
+    "id": "267",
+    "name": "Nordkraft Portable Monitor Max",
+    "category": "MONITORS"
+  },
+  {
+    "id": "268",
+    "name": "Vantablack Gaming Monitor Max",
+    "category": "MONITORS"
+  },
+  {
+    "id": "269",
+    "name": "Larkspur Pro Display Max",
+    "category": "MONITORS"
+  },
+  {
+    "id": "270",
+    "name": "Helix Touch Monitor Max",
+    "category": "MONITORS"
+  },
+  {
+    "id": "271",
+    "name": "Ironwood Curved Monitor Max",
+    "category": "MONITORS"
+  },
+  {
+    "id": "272",
+    "name": "Meridian Field Monitor Max",
+    "category": "MONITORS"
+  },
+  {
+    "id": "273",
+    "name": "Cobalt Keyboard Max",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "274",
+    "name": "Auralite Mouse Max",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "275",
+    "name": "Vista Trackpad Max",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "276",
+    "name": "Amperage Webcam Max",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "277",
+    "name": "Domus Stream Controller Max",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "278",
+    "name": "Basecamp Numpad Max",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "279",
+    "name": "Copperpot Graphics Tablet Max",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "280",
+    "name": "Summit Docking Station Max",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "281",
+    "name": "Nordkraft Charger Max",
+    "category": "POWER"
+  },
+  {
+    "id": "282",
+    "name": "Vantablack Power Bank Max",
+    "category": "POWER"
+  },
+  {
+    "id": "283",
+    "name": "Larkspur Charging Pad Max",
+    "category": "POWER"
+  },
+  {
+    "id": "284",
+    "name": "Helix Surge Station Max",
+    "category": "POWER"
+  },
+  {
+    "id": "285",
+    "name": "Ironwood Solar Charger Max",
+    "category": "POWER"
+  },
+  {
+    "id": "286",
+    "name": "Meridian USB Hub Max",
+    "category": "POWER"
+  },
+  {
+    "id": "287",
+    "name": "Cobalt Cable Kit Max",
+    "category": "POWER"
+  },
+  {
+    "id": "288",
+    "name": "Auralite Travel Adapter Max",
+    "category": "POWER"
+  },
+  {
+    "id": "289",
+    "name": "Vista Thermostat Max",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "290",
+    "name": "Amperage Smart Bulb Max",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "291",
+    "name": "Domus Video Doorbell Max",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "292",
+    "name": "Basecamp Indoor Camera Max",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "293",
+    "name": "Copperpot Smart Plug Max",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "294",
+    "name": "Summit Motion Sensor Max",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "295",
+    "name": "Nordkraft Smart Lock Max",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "296",
+    "name": "Vantablack Bridge Hub Max",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "297",
+    "name": "Larkspur Backpack Max",
+    "category": "BAGS"
+  },
+  {
+    "id": "298",
+    "name": "Helix Messenger Bag Max",
+    "category": "BAGS"
+  },
+  {
+    "id": "299",
+    "name": "Ironwood Sling Max",
+    "category": "BAGS"
+  },
+  {
+    "id": "300",
+    "name": "Meridian Hardshell Case Max",
+    "category": "BAGS"
+  },
+  {
+    "id": "301",
+    "name": "Cobalt Sleeve Max",
+    "category": "BAGS"
+  },
+  {
+    "id": "302",
+    "name": "Auralite Duffel Max",
+    "category": "BAGS"
+  },
+  {
+    "id": "303",
+    "name": "Vista Tote Max",
+    "category": "BAGS"
+  },
+  {
+    "id": "304",
+    "name": "Amperage Pouch Max",
+    "category": "BAGS"
+  },
+  {
+    "id": "305",
+    "name": "Domus Kettle Max",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "306",
+    "name": "Basecamp Grinder Max",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "307",
+    "name": "Copperpot Skillet Max",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "308",
+    "name": "Summit Water Bottle Max",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "309",
+    "name": "Nordkraft Sous-Vide Wand Max",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "310",
+    "name": "Vantablack Blender Max",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "311",
+    "name": "Larkspur Toaster Max",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "312",
+    "name": "Helix Air Fryer Max",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "313",
+    "name": "Ironwood Trail Runners Max",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "314",
+    "name": "Meridian Approach Shoe Max",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "315",
+    "name": "Cobalt Recovery Slide Max",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "316",
+    "name": "Auralite Waterproof Boot Max",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "317",
+    "name": "Vista Sneaker Max",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "318",
+    "name": "Amperage Hiking Boot Max",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "319",
+    "name": "Domus Sandal Max",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "320",
+    "name": "Basecamp Cross Trainer Max",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "321",
+    "name": "Copperpot Headphones Lite",
+    "category": "AUDIO"
+  },
+  {
+    "id": "322",
+    "name": "Summit Earbuds Lite",
+    "category": "AUDIO"
+  },
+  {
+    "id": "323",
+    "name": "Nordkraft Speaker Lite",
+    "category": "AUDIO"
+  },
+  {
+    "id": "324",
+    "name": "Vantablack Soundbar Lite",
+    "category": "AUDIO"
+  },
+  {
+    "id": "325",
+    "name": "Larkspur Microphone Lite",
+    "category": "AUDIO"
+  },
+  {
+    "id": "326",
+    "name": "Helix Turntable Lite",
+    "category": "AUDIO"
+  },
+  {
+    "id": "327",
+    "name": "Ironwood Amplifier Lite",
+    "category": "AUDIO"
+  },
+  {
+    "id": "328",
+    "name": "Meridian Receiver Lite",
+    "category": "AUDIO"
+  },
+  {
+    "id": "329",
+    "name": "Cobalt Ultrabook Lite",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "330",
+    "name": "Auralite Notebook Lite",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "331",
+    "name": "Vista Workstation Lite",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "332",
+    "name": "Amperage Cloudbook Lite",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "333",
+    "name": "Domus Convertible Lite",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "334",
+    "name": "Basecamp Creatorbook Lite",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "335",
+    "name": "Copperpot Slimbook Lite",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "336",
+    "name": "Summit Gamebook Lite",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "337",
+    "name": "Nordkraft Smartwatch Lite",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "338",
+    "name": "Vantablack Fitness Band Lite",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "339",
+    "name": "Larkspur Smart Ring Lite",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "340",
+    "name": "Helix AR Glasses Lite",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "341",
+    "name": "Ironwood Running Watch Lite",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "342",
+    "name": "Meridian Sleep Tracker Lite",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "343",
+    "name": "Cobalt Field Watch Lite",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "344",
+    "name": "Auralite Dive Watch Lite",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "345",
+    "name": "Vista Monitor Lite",
+    "category": "MONITORS"
+  },
+  {
+    "id": "346",
+    "name": "Amperage Ultrawide Lite",
+    "category": "MONITORS"
+  },
+  {
+    "id": "347",
+    "name": "Domus Portable Monitor Lite",
+    "category": "MONITORS"
+  },
+  {
+    "id": "348",
+    "name": "Basecamp Gaming Monitor Lite",
+    "category": "MONITORS"
+  },
+  {
+    "id": "349",
+    "name": "Copperpot Pro Display Lite",
+    "category": "MONITORS"
+  },
+  {
+    "id": "350",
+    "name": "Summit Touch Monitor Lite",
+    "category": "MONITORS"
+  },
+  {
+    "id": "351",
+    "name": "Nordkraft Curved Monitor Lite",
+    "category": "MONITORS"
+  },
+  {
+    "id": "352",
+    "name": "Vantablack Field Monitor Lite",
+    "category": "MONITORS"
+  },
+  {
+    "id": "353",
+    "name": "Larkspur Keyboard Lite",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "354",
+    "name": "Helix Mouse Lite",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "355",
+    "name": "Ironwood Trackpad Lite",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "356",
+    "name": "Meridian Webcam Lite",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "357",
+    "name": "Cobalt Stream Controller Lite",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "358",
+    "name": "Auralite Numpad Lite",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "359",
+    "name": "Vista Graphics Tablet Lite",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "360",
+    "name": "Amperage Docking Station Lite",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "361",
+    "name": "Domus Charger Lite",
+    "category": "POWER"
+  },
+  {
+    "id": "362",
+    "name": "Basecamp Power Bank Lite",
+    "category": "POWER"
+  },
+  {
+    "id": "363",
+    "name": "Copperpot Charging Pad Lite",
+    "category": "POWER"
+  },
+  {
+    "id": "364",
+    "name": "Summit Surge Station Lite",
+    "category": "POWER"
+  },
+  {
+    "id": "365",
+    "name": "Nordkraft Solar Charger Lite",
+    "category": "POWER"
+  },
+  {
+    "id": "366",
+    "name": "Vantablack USB Hub Lite",
+    "category": "POWER"
+  },
+  {
+    "id": "367",
+    "name": "Larkspur Cable Kit Lite",
+    "category": "POWER"
+  },
+  {
+    "id": "368",
+    "name": "Helix Travel Adapter Lite",
+    "category": "POWER"
+  },
+  {
+    "id": "369",
+    "name": "Ironwood Thermostat Lite",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "370",
+    "name": "Meridian Smart Bulb Lite",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "371",
+    "name": "Cobalt Video Doorbell Lite",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "372",
+    "name": "Auralite Indoor Camera Lite",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "373",
+    "name": "Vista Smart Plug Lite",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "374",
+    "name": "Amperage Motion Sensor Lite",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "375",
+    "name": "Domus Smart Lock Lite",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "376",
+    "name": "Basecamp Bridge Hub Lite",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "377",
+    "name": "Copperpot Backpack Lite",
+    "category": "BAGS"
+  },
+  {
+    "id": "378",
+    "name": "Summit Messenger Bag Lite",
+    "category": "BAGS"
+  },
+  {
+    "id": "379",
+    "name": "Nordkraft Sling Lite",
+    "category": "BAGS"
+  },
+  {
+    "id": "380",
+    "name": "Vantablack Hardshell Case Lite",
+    "category": "BAGS"
+  },
+  {
+    "id": "381",
+    "name": "Larkspur Sleeve Lite",
+    "category": "BAGS"
+  },
+  {
+    "id": "382",
+    "name": "Helix Duffel Lite",
+    "category": "BAGS"
+  },
+  {
+    "id": "383",
+    "name": "Ironwood Tote Lite",
+    "category": "BAGS"
+  },
+  {
+    "id": "384",
+    "name": "Meridian Pouch Lite",
+    "category": "BAGS"
+  },
+  {
+    "id": "385",
+    "name": "Cobalt Kettle Lite",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "386",
+    "name": "Auralite Grinder Lite",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "387",
+    "name": "Vista Skillet Lite",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "388",
+    "name": "Amperage Water Bottle Lite",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "389",
+    "name": "Domus Sous-Vide Wand Lite",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "390",
+    "name": "Basecamp Blender Lite",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "391",
+    "name": "Copperpot Toaster Lite",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "392",
+    "name": "Summit Air Fryer Lite",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "393",
+    "name": "Nordkraft Trail Runners Lite",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "394",
+    "name": "Vantablack Approach Shoe Lite",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "395",
+    "name": "Larkspur Recovery Slide Lite",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "396",
+    "name": "Helix Waterproof Boot Lite",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "397",
+    "name": "Ironwood Sneaker Lite",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "398",
+    "name": "Meridian Hiking Boot Lite",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "399",
+    "name": "Cobalt Sandal Lite",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "400",
+    "name": "Auralite Cross Trainer Lite",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "401",
+    "name": "Vista Headphones Plus",
+    "category": "AUDIO"
+  },
+  {
+    "id": "402",
+    "name": "Amperage Earbuds Plus",
+    "category": "AUDIO"
+  },
+  {
+    "id": "403",
+    "name": "Domus Speaker Plus",
+    "category": "AUDIO"
+  },
+  {
+    "id": "404",
+    "name": "Basecamp Soundbar Plus",
+    "category": "AUDIO"
+  },
+  {
+    "id": "405",
+    "name": "Copperpot Microphone Plus",
+    "category": "AUDIO"
+  },
+  {
+    "id": "406",
+    "name": "Summit Turntable Plus",
+    "category": "AUDIO"
+  },
+  {
+    "id": "407",
+    "name": "Nordkraft Amplifier Plus",
+    "category": "AUDIO"
+  },
+  {
+    "id": "408",
+    "name": "Vantablack Receiver Plus",
+    "category": "AUDIO"
+  },
+  {
+    "id": "409",
+    "name": "Larkspur Ultrabook Plus",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "410",
+    "name": "Helix Notebook Plus",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "411",
+    "name": "Ironwood Workstation Plus",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "412",
+    "name": "Meridian Cloudbook Plus",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "413",
+    "name": "Cobalt Convertible Plus",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "414",
+    "name": "Auralite Creatorbook Plus",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "415",
+    "name": "Vista Slimbook Plus",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "416",
+    "name": "Amperage Gamebook Plus",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "417",
+    "name": "Domus Smartwatch Plus",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "418",
+    "name": "Basecamp Fitness Band Plus",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "419",
+    "name": "Copperpot Smart Ring Plus",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "420",
+    "name": "Summit AR Glasses Plus",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "421",
+    "name": "Nordkraft Running Watch Plus",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "422",
+    "name": "Vantablack Sleep Tracker Plus",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "423",
+    "name": "Larkspur Field Watch Plus",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "424",
+    "name": "Helix Dive Watch Plus",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "425",
+    "name": "Ironwood Monitor Plus",
+    "category": "MONITORS"
+  },
+  {
+    "id": "426",
+    "name": "Meridian Ultrawide Plus",
+    "category": "MONITORS"
+  },
+  {
+    "id": "427",
+    "name": "Cobalt Portable Monitor Plus",
+    "category": "MONITORS"
+  },
+  {
+    "id": "428",
+    "name": "Auralite Gaming Monitor Plus",
+    "category": "MONITORS"
+  },
+  {
+    "id": "429",
+    "name": "Vista Pro Display Plus",
+    "category": "MONITORS"
+  },
+  {
+    "id": "430",
+    "name": "Amperage Touch Monitor Plus",
+    "category": "MONITORS"
+  },
+  {
+    "id": "431",
+    "name": "Domus Curved Monitor Plus",
+    "category": "MONITORS"
+  },
+  {
+    "id": "432",
+    "name": "Basecamp Field Monitor Plus",
+    "category": "MONITORS"
+  },
+  {
+    "id": "433",
+    "name": "Copperpot Keyboard Plus",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "434",
+    "name": "Summit Mouse Plus",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "435",
+    "name": "Nordkraft Trackpad Plus",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "436",
+    "name": "Vantablack Webcam Plus",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "437",
+    "name": "Larkspur Stream Controller Plus",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "438",
+    "name": "Helix Numpad Plus",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "439",
+    "name": "Ironwood Graphics Tablet Plus",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "440",
+    "name": "Meridian Docking Station Plus",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "441",
+    "name": "Cobalt Charger Plus",
+    "category": "POWER"
+  },
+  {
+    "id": "442",
+    "name": "Auralite Power Bank Plus",
+    "category": "POWER"
+  },
+  {
+    "id": "443",
+    "name": "Vista Charging Pad Plus",
+    "category": "POWER"
+  },
+  {
+    "id": "444",
+    "name": "Amperage Surge Station Plus",
+    "category": "POWER"
+  },
+  {
+    "id": "445",
+    "name": "Domus Solar Charger Plus",
+    "category": "POWER"
+  },
+  {
+    "id": "446",
+    "name": "Basecamp USB Hub Plus",
+    "category": "POWER"
+  },
+  {
+    "id": "447",
+    "name": "Copperpot Cable Kit Plus",
+    "category": "POWER"
+  },
+  {
+    "id": "448",
+    "name": "Summit Travel Adapter Plus",
+    "category": "POWER"
+  },
+  {
+    "id": "449",
+    "name": "Nordkraft Thermostat Plus",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "450",
+    "name": "Vantablack Smart Bulb Plus",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "451",
+    "name": "Larkspur Video Doorbell Plus",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "452",
+    "name": "Helix Indoor Camera Plus",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "453",
+    "name": "Ironwood Smart Plug Plus",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "454",
+    "name": "Meridian Motion Sensor Plus",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "455",
+    "name": "Cobalt Smart Lock Plus",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "456",
+    "name": "Auralite Bridge Hub Plus",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "457",
+    "name": "Vista Backpack Plus",
+    "category": "BAGS"
+  },
+  {
+    "id": "458",
+    "name": "Amperage Messenger Bag Plus",
+    "category": "BAGS"
+  },
+  {
+    "id": "459",
+    "name": "Domus Sling Plus",
+    "category": "BAGS"
+  },
+  {
+    "id": "460",
+    "name": "Basecamp Hardshell Case Plus",
+    "category": "BAGS"
+  },
+  {
+    "id": "461",
+    "name": "Copperpot Sleeve Plus",
+    "category": "BAGS"
+  },
+  {
+    "id": "462",
+    "name": "Summit Duffel Plus",
+    "category": "BAGS"
+  },
+  {
+    "id": "463",
+    "name": "Nordkraft Tote Plus",
+    "category": "BAGS"
+  },
+  {
+    "id": "464",
+    "name": "Vantablack Pouch Plus",
+    "category": "BAGS"
+  },
+  {
+    "id": "465",
+    "name": "Larkspur Kettle Plus",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "466",
+    "name": "Helix Grinder Plus",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "467",
+    "name": "Ironwood Skillet Plus",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "468",
+    "name": "Meridian Water Bottle Plus",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "469",
+    "name": "Cobalt Sous-Vide Wand Plus",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "470",
+    "name": "Auralite Blender Plus",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "471",
+    "name": "Vista Toaster Plus",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "472",
+    "name": "Amperage Air Fryer Plus",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "473",
+    "name": "Domus Trail Runners Plus",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "474",
+    "name": "Basecamp Approach Shoe Plus",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "475",
+    "name": "Copperpot Recovery Slide Plus",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "476",
+    "name": "Summit Waterproof Boot Plus",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "477",
+    "name": "Nordkraft Sneaker Plus",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "478",
+    "name": "Vantablack Hiking Boot Plus",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "479",
+    "name": "Larkspur Sandal Plus",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "480",
+    "name": "Helix Cross Trainer Plus",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "481",
+    "name": "Ironwood Headphones Two",
+    "category": "AUDIO"
+  },
+  {
+    "id": "482",
+    "name": "Meridian Earbuds Two",
+    "category": "AUDIO"
+  },
+  {
+    "id": "483",
+    "name": "Cobalt Speaker Two",
+    "category": "AUDIO"
+  },
+  {
+    "id": "484",
+    "name": "Auralite Soundbar Two",
+    "category": "AUDIO"
+  },
+  {
+    "id": "485",
+    "name": "Vista Microphone Two",
+    "category": "AUDIO"
+  },
+  {
+    "id": "486",
+    "name": "Amperage Turntable Two",
+    "category": "AUDIO"
+  },
+  {
+    "id": "487",
+    "name": "Domus Amplifier Two",
+    "category": "AUDIO"
+  },
+  {
+    "id": "488",
+    "name": "Basecamp Receiver Two",
+    "category": "AUDIO"
+  },
+  {
+    "id": "489",
+    "name": "Copperpot Ultrabook Two",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "490",
+    "name": "Summit Notebook Two",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "491",
+    "name": "Nordkraft Workstation Two",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "492",
+    "name": "Vantablack Cloudbook Two",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "493",
+    "name": "Larkspur Convertible Two",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "494",
+    "name": "Helix Creatorbook Two",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "495",
+    "name": "Ironwood Slimbook Two",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "496",
+    "name": "Meridian Gamebook Two",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "497",
+    "name": "Cobalt Smartwatch Two",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "498",
+    "name": "Auralite Fitness Band Two",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "499",
+    "name": "Vista Smart Ring Two",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "500",
+    "name": "Amperage AR Glasses Two",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "501",
+    "name": "Domus Running Watch Two",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "502",
+    "name": "Basecamp Sleep Tracker Two",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "503",
+    "name": "Copperpot Field Watch Two",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "504",
+    "name": "Summit Dive Watch Two",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "505",
+    "name": "Nordkraft Monitor Two",
+    "category": "MONITORS"
+  },
+  {
+    "id": "506",
+    "name": "Vantablack Ultrawide Two",
+    "category": "MONITORS"
+  },
+  {
+    "id": "507",
+    "name": "Larkspur Portable Monitor Two",
+    "category": "MONITORS"
+  },
+  {
+    "id": "508",
+    "name": "Helix Gaming Monitor Two",
+    "category": "MONITORS"
+  },
+  {
+    "id": "509",
+    "name": "Ironwood Pro Display Two",
+    "category": "MONITORS"
+  },
+  {
+    "id": "510",
+    "name": "Meridian Touch Monitor Two",
+    "category": "MONITORS"
+  },
+  {
+    "id": "511",
+    "name": "Cobalt Curved Monitor Two",
+    "category": "MONITORS"
+  },
+  {
+    "id": "512",
+    "name": "Auralite Field Monitor Two",
+    "category": "MONITORS"
+  },
+  {
+    "id": "513",
+    "name": "Vista Keyboard Two",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "514",
+    "name": "Amperage Mouse Two",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "515",
+    "name": "Domus Trackpad Two",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "516",
+    "name": "Basecamp Webcam Two",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "517",
+    "name": "Copperpot Stream Controller Two",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "518",
+    "name": "Summit Numpad Two",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "519",
+    "name": "Nordkraft Graphics Tablet Two",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "520",
+    "name": "Vantablack Docking Station Two",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "521",
+    "name": "Larkspur Charger Two",
+    "category": "POWER"
+  },
+  {
+    "id": "522",
+    "name": "Helix Power Bank Two",
+    "category": "POWER"
+  },
+  {
+    "id": "523",
+    "name": "Ironwood Charging Pad Two",
+    "category": "POWER"
+  },
+  {
+    "id": "524",
+    "name": "Meridian Surge Station Two",
+    "category": "POWER"
+  },
+  {
+    "id": "525",
+    "name": "Cobalt Solar Charger Two",
+    "category": "POWER"
+  },
+  {
+    "id": "526",
+    "name": "Auralite USB Hub Two",
+    "category": "POWER"
+  },
+  {
+    "id": "527",
+    "name": "Vista Cable Kit Two",
+    "category": "POWER"
+  },
+  {
+    "id": "528",
+    "name": "Amperage Travel Adapter Two",
+    "category": "POWER"
+  },
+  {
+    "id": "529",
+    "name": "Domus Thermostat Two",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "530",
+    "name": "Basecamp Smart Bulb Two",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "531",
+    "name": "Copperpot Video Doorbell Two",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "532",
+    "name": "Summit Indoor Camera Two",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "533",
+    "name": "Nordkraft Smart Plug Two",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "534",
+    "name": "Vantablack Motion Sensor Two",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "535",
+    "name": "Larkspur Smart Lock Two",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "536",
+    "name": "Helix Bridge Hub Two",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "537",
+    "name": "Ironwood Backpack Two",
+    "category": "BAGS"
+  },
+  {
+    "id": "538",
+    "name": "Meridian Messenger Bag Two",
+    "category": "BAGS"
+  },
+  {
+    "id": "539",
+    "name": "Cobalt Sling Two",
+    "category": "BAGS"
+  },
+  {
+    "id": "540",
+    "name": "Auralite Hardshell Case Two",
+    "category": "BAGS"
+  },
+  {
+    "id": "541",
+    "name": "Vista Sleeve Two",
+    "category": "BAGS"
+  },
+  {
+    "id": "542",
+    "name": "Amperage Duffel Two",
+    "category": "BAGS"
+  },
+  {
+    "id": "543",
+    "name": "Domus Tote Two",
+    "category": "BAGS"
+  },
+  {
+    "id": "544",
+    "name": "Basecamp Pouch Two",
+    "category": "BAGS"
+  },
+  {
+    "id": "545",
+    "name": "Copperpot Kettle Two",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "546",
+    "name": "Summit Grinder Two",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "547",
+    "name": "Nordkraft Skillet Two",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "548",
+    "name": "Vantablack Water Bottle Two",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "549",
+    "name": "Larkspur Sous-Vide Wand Two",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "550",
+    "name": "Helix Blender Two",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "551",
+    "name": "Ironwood Toaster Two",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "552",
+    "name": "Meridian Air Fryer Two",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "553",
+    "name": "Cobalt Trail Runners Two",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "554",
+    "name": "Auralite Approach Shoe Two",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "555",
+    "name": "Vista Recovery Slide Two",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "556",
+    "name": "Amperage Waterproof Boot Two",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "557",
+    "name": "Domus Sneaker Two",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "558",
+    "name": "Basecamp Hiking Boot Two",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "559",
+    "name": "Copperpot Sandal Two",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "560",
+    "name": "Summit Cross Trainer Two",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "561",
+    "name": "Nordkraft Headphones Three",
+    "category": "AUDIO"
+  },
+  {
+    "id": "562",
+    "name": "Vantablack Earbuds Three",
+    "category": "AUDIO"
+  },
+  {
+    "id": "563",
+    "name": "Larkspur Speaker Three",
+    "category": "AUDIO"
+  },
+  {
+    "id": "564",
+    "name": "Helix Soundbar Three",
+    "category": "AUDIO"
+  },
+  {
+    "id": "565",
+    "name": "Ironwood Microphone Three",
+    "category": "AUDIO"
+  },
+  {
+    "id": "566",
+    "name": "Meridian Turntable Three",
+    "category": "AUDIO"
+  },
+  {
+    "id": "567",
+    "name": "Cobalt Amplifier Three",
+    "category": "AUDIO"
+  },
+  {
+    "id": "568",
+    "name": "Auralite Receiver Three",
+    "category": "AUDIO"
+  },
+  {
+    "id": "569",
+    "name": "Vista Ultrabook Three",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "570",
+    "name": "Amperage Notebook Three",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "571",
+    "name": "Domus Workstation Three",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "572",
+    "name": "Basecamp Cloudbook Three",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "573",
+    "name": "Copperpot Convertible Three",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "574",
+    "name": "Summit Creatorbook Three",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "575",
+    "name": "Nordkraft Slimbook Three",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "576",
+    "name": "Vantablack Gamebook Three",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "577",
+    "name": "Larkspur Smartwatch Three",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "578",
+    "name": "Helix Fitness Band Three",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "579",
+    "name": "Ironwood Smart Ring Three",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "580",
+    "name": "Meridian AR Glasses Three",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "581",
+    "name": "Cobalt Running Watch Three",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "582",
+    "name": "Auralite Sleep Tracker Three",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "583",
+    "name": "Vista Field Watch Three",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "584",
+    "name": "Amperage Dive Watch Three",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "585",
+    "name": "Domus Monitor Three",
+    "category": "MONITORS"
+  },
+  {
+    "id": "586",
+    "name": "Basecamp Ultrawide Three",
+    "category": "MONITORS"
+  },
+  {
+    "id": "587",
+    "name": "Copperpot Portable Monitor Three",
+    "category": "MONITORS"
+  },
+  {
+    "id": "588",
+    "name": "Summit Gaming Monitor Three",
+    "category": "MONITORS"
+  },
+  {
+    "id": "589",
+    "name": "Nordkraft Pro Display Three",
+    "category": "MONITORS"
+  },
+  {
+    "id": "590",
+    "name": "Vantablack Touch Monitor Three",
+    "category": "MONITORS"
+  },
+  {
+    "id": "591",
+    "name": "Larkspur Curved Monitor Three",
+    "category": "MONITORS"
+  },
+  {
+    "id": "592",
+    "name": "Helix Field Monitor Three",
+    "category": "MONITORS"
+  },
+  {
+    "id": "593",
+    "name": "Ironwood Keyboard Three",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "594",
+    "name": "Meridian Mouse Three",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "595",
+    "name": "Cobalt Trackpad Three",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "596",
+    "name": "Auralite Webcam Three",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "597",
+    "name": "Vista Stream Controller Three",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "598",
+    "name": "Amperage Numpad Three",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "599",
+    "name": "Domus Graphics Tablet Three",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "600",
+    "name": "Basecamp Docking Station Three",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "601",
+    "name": "Copperpot Charger Three",
+    "category": "POWER"
+  },
+  {
+    "id": "602",
+    "name": "Summit Power Bank Three",
+    "category": "POWER"
+  },
+  {
+    "id": "603",
+    "name": "Nordkraft Charging Pad Three",
+    "category": "POWER"
+  },
+  {
+    "id": "604",
+    "name": "Vantablack Surge Station Three",
+    "category": "POWER"
+  },
+  {
+    "id": "605",
+    "name": "Larkspur Solar Charger Three",
+    "category": "POWER"
+  },
+  {
+    "id": "606",
+    "name": "Helix USB Hub Three",
+    "category": "POWER"
+  },
+  {
+    "id": "607",
+    "name": "Ironwood Cable Kit Three",
+    "category": "POWER"
+  },
+  {
+    "id": "608",
+    "name": "Meridian Travel Adapter Three",
+    "category": "POWER"
+  },
+  {
+    "id": "609",
+    "name": "Cobalt Thermostat Three",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "610",
+    "name": "Auralite Smart Bulb Three",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "611",
+    "name": "Vista Video Doorbell Three",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "612",
+    "name": "Amperage Indoor Camera Three",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "613",
+    "name": "Domus Smart Plug Three",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "614",
+    "name": "Basecamp Motion Sensor Three",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "615",
+    "name": "Copperpot Smart Lock Three",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "616",
+    "name": "Summit Bridge Hub Three",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "617",
+    "name": "Nordkraft Backpack Three",
+    "category": "BAGS"
+  },
+  {
+    "id": "618",
+    "name": "Vantablack Messenger Bag Three",
+    "category": "BAGS"
+  },
+  {
+    "id": "619",
+    "name": "Larkspur Sling Three",
+    "category": "BAGS"
+  },
+  {
+    "id": "620",
+    "name": "Helix Hardshell Case Three",
+    "category": "BAGS"
+  },
+  {
+    "id": "621",
+    "name": "Ironwood Sleeve Three",
+    "category": "BAGS"
+  },
+  {
+    "id": "622",
+    "name": "Meridian Duffel Three",
+    "category": "BAGS"
+  },
+  {
+    "id": "623",
+    "name": "Cobalt Tote Three",
+    "category": "BAGS"
+  },
+  {
+    "id": "624",
+    "name": "Auralite Pouch Three",
+    "category": "BAGS"
+  },
+  {
+    "id": "625",
+    "name": "Vista Kettle Three",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "626",
+    "name": "Amperage Grinder Three",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "627",
+    "name": "Domus Skillet Three",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "628",
+    "name": "Basecamp Water Bottle Three",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "629",
+    "name": "Copperpot Sous-Vide Wand Three",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "630",
+    "name": "Summit Blender Three",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "631",
+    "name": "Nordkraft Toaster Three",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "632",
+    "name": "Vantablack Air Fryer Three",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "633",
+    "name": "Larkspur Trail Runners Three",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "634",
+    "name": "Helix Approach Shoe Three",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "635",
+    "name": "Ironwood Recovery Slide Three",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "636",
+    "name": "Meridian Waterproof Boot Three",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "637",
+    "name": "Cobalt Sneaker Three",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "638",
+    "name": "Auralite Hiking Boot Three",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "639",
+    "name": "Vista Sandal Three",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "640",
+    "name": "Amperage Cross Trainer Three",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "641",
+    "name": "Domus Headphones S",
+    "category": "AUDIO"
+  },
+  {
+    "id": "642",
+    "name": "Basecamp Earbuds S",
+    "category": "AUDIO"
+  },
+  {
+    "id": "643",
+    "name": "Copperpot Speaker S",
+    "category": "AUDIO"
+  },
+  {
+    "id": "644",
+    "name": "Summit Soundbar S",
+    "category": "AUDIO"
+  },
+  {
+    "id": "645",
+    "name": "Nordkraft Microphone S",
+    "category": "AUDIO"
+  },
+  {
+    "id": "646",
+    "name": "Vantablack Turntable S",
+    "category": "AUDIO"
+  },
+  {
+    "id": "647",
+    "name": "Larkspur Amplifier S",
+    "category": "AUDIO"
+  },
+  {
+    "id": "648",
+    "name": "Helix Receiver S",
+    "category": "AUDIO"
+  },
+  {
+    "id": "649",
+    "name": "Ironwood Ultrabook S",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "650",
+    "name": "Meridian Notebook S",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "651",
+    "name": "Cobalt Workstation S",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "652",
+    "name": "Auralite Cloudbook S",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "653",
+    "name": "Vista Convertible S",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "654",
+    "name": "Amperage Creatorbook S",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "655",
+    "name": "Domus Slimbook S",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "656",
+    "name": "Basecamp Gamebook S",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "657",
+    "name": "Copperpot Smartwatch S",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "658",
+    "name": "Summit Fitness Band S",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "659",
+    "name": "Nordkraft Smart Ring S",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "660",
+    "name": "Vantablack AR Glasses S",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "661",
+    "name": "Larkspur Running Watch S",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "662",
+    "name": "Helix Sleep Tracker S",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "663",
+    "name": "Ironwood Field Watch S",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "664",
+    "name": "Meridian Dive Watch S",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "665",
+    "name": "Cobalt Monitor S",
+    "category": "MONITORS"
+  },
+  {
+    "id": "666",
+    "name": "Auralite Ultrawide S",
+    "category": "MONITORS"
+  },
+  {
+    "id": "667",
+    "name": "Vista Portable Monitor S",
+    "category": "MONITORS"
+  },
+  {
+    "id": "668",
+    "name": "Amperage Gaming Monitor S",
+    "category": "MONITORS"
+  },
+  {
+    "id": "669",
+    "name": "Domus Pro Display S",
+    "category": "MONITORS"
+  },
+  {
+    "id": "670",
+    "name": "Basecamp Touch Monitor S",
+    "category": "MONITORS"
+  },
+  {
+    "id": "671",
+    "name": "Copperpot Curved Monitor S",
+    "category": "MONITORS"
+  },
+  {
+    "id": "672",
+    "name": "Summit Field Monitor S",
+    "category": "MONITORS"
+  },
+  {
+    "id": "673",
+    "name": "Nordkraft Keyboard S",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "674",
+    "name": "Vantablack Mouse S",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "675",
+    "name": "Larkspur Trackpad S",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "676",
+    "name": "Helix Webcam S",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "677",
+    "name": "Ironwood Stream Controller S",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "678",
+    "name": "Meridian Numpad S",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "679",
+    "name": "Cobalt Graphics Tablet S",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "680",
+    "name": "Auralite Docking Station S",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "681",
+    "name": "Vista Charger S",
+    "category": "POWER"
+  },
+  {
+    "id": "682",
+    "name": "Amperage Power Bank S",
+    "category": "POWER"
+  },
+  {
+    "id": "683",
+    "name": "Domus Charging Pad S",
+    "category": "POWER"
+  },
+  {
+    "id": "684",
+    "name": "Basecamp Surge Station S",
+    "category": "POWER"
+  },
+  {
+    "id": "685",
+    "name": "Copperpot Solar Charger S",
+    "category": "POWER"
+  },
+  {
+    "id": "686",
+    "name": "Summit USB Hub S",
+    "category": "POWER"
+  },
+  {
+    "id": "687",
+    "name": "Nordkraft Cable Kit S",
+    "category": "POWER"
+  },
+  {
+    "id": "688",
+    "name": "Vantablack Travel Adapter S",
+    "category": "POWER"
+  },
+  {
+    "id": "689",
+    "name": "Larkspur Thermostat S",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "690",
+    "name": "Helix Smart Bulb S",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "691",
+    "name": "Ironwood Video Doorbell S",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "692",
+    "name": "Meridian Indoor Camera S",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "693",
+    "name": "Cobalt Smart Plug S",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "694",
+    "name": "Auralite Motion Sensor S",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "695",
+    "name": "Vista Smart Lock S",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "696",
+    "name": "Amperage Bridge Hub S",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "697",
+    "name": "Domus Backpack S",
+    "category": "BAGS"
+  },
+  {
+    "id": "698",
+    "name": "Basecamp Messenger Bag S",
+    "category": "BAGS"
+  },
+  {
+    "id": "699",
+    "name": "Copperpot Sling S",
+    "category": "BAGS"
+  },
+  {
+    "id": "700",
+    "name": "Summit Hardshell Case S",
+    "category": "BAGS"
+  },
+  {
+    "id": "701",
+    "name": "Nordkraft Sleeve S",
+    "category": "BAGS"
+  },
+  {
+    "id": "702",
+    "name": "Vantablack Duffel S",
+    "category": "BAGS"
+  },
+  {
+    "id": "703",
+    "name": "Larkspur Tote S",
+    "category": "BAGS"
+  },
+  {
+    "id": "704",
+    "name": "Helix Pouch S",
+    "category": "BAGS"
+  },
+  {
+    "id": "705",
+    "name": "Ironwood Kettle S",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "706",
+    "name": "Meridian Grinder S",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "707",
+    "name": "Cobalt Skillet S",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "708",
+    "name": "Auralite Water Bottle S",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "709",
+    "name": "Vista Sous-Vide Wand S",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "710",
+    "name": "Amperage Blender S",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "711",
+    "name": "Domus Toaster S",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "712",
+    "name": "Basecamp Air Fryer S",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "713",
+    "name": "Copperpot Trail Runners S",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "714",
+    "name": "Summit Approach Shoe S",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "715",
+    "name": "Nordkraft Recovery Slide S",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "716",
+    "name": "Vantablack Waterproof Boot S",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "717",
+    "name": "Larkspur Sneaker S",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "718",
+    "name": "Helix Hiking Boot S",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "719",
+    "name": "Ironwood Sandal S",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "720",
+    "name": "Meridian Cross Trainer S",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "721",
+    "name": "Cobalt Headphones X",
+    "category": "AUDIO"
+  },
+  {
+    "id": "722",
+    "name": "Auralite Earbuds X",
+    "category": "AUDIO"
+  },
+  {
+    "id": "723",
+    "name": "Vista Speaker X",
+    "category": "AUDIO"
+  },
+  {
+    "id": "724",
+    "name": "Amperage Soundbar X",
+    "category": "AUDIO"
+  },
+  {
+    "id": "725",
+    "name": "Domus Microphone X",
+    "category": "AUDIO"
+  },
+  {
+    "id": "726",
+    "name": "Basecamp Turntable X",
+    "category": "AUDIO"
+  },
+  {
+    "id": "727",
+    "name": "Copperpot Amplifier X",
+    "category": "AUDIO"
+  },
+  {
+    "id": "728",
+    "name": "Summit Receiver X",
+    "category": "AUDIO"
+  },
+  {
+    "id": "729",
+    "name": "Nordkraft Ultrabook X",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "730",
+    "name": "Vantablack Notebook X",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "731",
+    "name": "Larkspur Workstation X",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "732",
+    "name": "Helix Cloudbook X",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "733",
+    "name": "Ironwood Convertible X",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "734",
+    "name": "Meridian Creatorbook X",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "735",
+    "name": "Cobalt Slimbook X",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "736",
+    "name": "Auralite Gamebook X",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "737",
+    "name": "Vista Smartwatch X",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "738",
+    "name": "Amperage Fitness Band X",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "739",
+    "name": "Domus Smart Ring X",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "740",
+    "name": "Basecamp AR Glasses X",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "741",
+    "name": "Copperpot Running Watch X",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "742",
+    "name": "Summit Sleep Tracker X",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "743",
+    "name": "Nordkraft Field Watch X",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "744",
+    "name": "Vantablack Dive Watch X",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "745",
+    "name": "Larkspur Monitor X",
+    "category": "MONITORS"
+  },
+  {
+    "id": "746",
+    "name": "Helix Ultrawide X",
+    "category": "MONITORS"
+  },
+  {
+    "id": "747",
+    "name": "Ironwood Portable Monitor X",
+    "category": "MONITORS"
+  },
+  {
+    "id": "748",
+    "name": "Meridian Gaming Monitor X",
+    "category": "MONITORS"
+  },
+  {
+    "id": "749",
+    "name": "Cobalt Pro Display X",
+    "category": "MONITORS"
+  },
+  {
+    "id": "750",
+    "name": "Auralite Touch Monitor X",
+    "category": "MONITORS"
+  },
+  {
+    "id": "751",
+    "name": "Vista Curved Monitor X",
+    "category": "MONITORS"
+  },
+  {
+    "id": "752",
+    "name": "Amperage Field Monitor X",
+    "category": "MONITORS"
+  },
+  {
+    "id": "753",
+    "name": "Domus Keyboard X",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "754",
+    "name": "Basecamp Mouse X",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "755",
+    "name": "Copperpot Trackpad X",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "756",
+    "name": "Summit Webcam X",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "757",
+    "name": "Nordkraft Stream Controller X",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "758",
+    "name": "Vantablack Numpad X",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "759",
+    "name": "Larkspur Graphics Tablet X",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "760",
+    "name": "Helix Docking Station X",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "761",
+    "name": "Ironwood Charger X",
+    "category": "POWER"
+  },
+  {
+    "id": "762",
+    "name": "Meridian Power Bank X",
+    "category": "POWER"
+  },
+  {
+    "id": "763",
+    "name": "Cobalt Charging Pad X",
+    "category": "POWER"
+  },
+  {
+    "id": "764",
+    "name": "Auralite Surge Station X",
+    "category": "POWER"
+  },
+  {
+    "id": "765",
+    "name": "Vista Solar Charger X",
+    "category": "POWER"
+  },
+  {
+    "id": "766",
+    "name": "Amperage USB Hub X",
+    "category": "POWER"
+  },
+  {
+    "id": "767",
+    "name": "Domus Cable Kit X",
+    "category": "POWER"
+  },
+  {
+    "id": "768",
+    "name": "Basecamp Travel Adapter X",
+    "category": "POWER"
+  },
+  {
+    "id": "769",
+    "name": "Copperpot Thermostat X",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "770",
+    "name": "Summit Smart Bulb X",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "771",
+    "name": "Nordkraft Video Doorbell X",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "772",
+    "name": "Vantablack Indoor Camera X",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "773",
+    "name": "Larkspur Smart Plug X",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "774",
+    "name": "Helix Motion Sensor X",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "775",
+    "name": "Ironwood Smart Lock X",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "776",
+    "name": "Meridian Bridge Hub X",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "777",
+    "name": "Cobalt Backpack X",
+    "category": "BAGS"
+  },
+  {
+    "id": "778",
+    "name": "Auralite Messenger Bag X",
+    "category": "BAGS"
+  },
+  {
+    "id": "779",
+    "name": "Vista Sling X",
+    "category": "BAGS"
+  },
+  {
+    "id": "780",
+    "name": "Amperage Hardshell Case X",
+    "category": "BAGS"
+  },
+  {
+    "id": "781",
+    "name": "Domus Sleeve X",
+    "category": "BAGS"
+  },
+  {
+    "id": "782",
+    "name": "Basecamp Duffel X",
+    "category": "BAGS"
+  },
+  {
+    "id": "783",
+    "name": "Copperpot Tote X",
+    "category": "BAGS"
+  },
+  {
+    "id": "784",
+    "name": "Summit Pouch X",
+    "category": "BAGS"
+  },
+  {
+    "id": "785",
+    "name": "Nordkraft Kettle X",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "786",
+    "name": "Vantablack Grinder X",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "787",
+    "name": "Larkspur Skillet X",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "788",
+    "name": "Helix Water Bottle X",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "789",
+    "name": "Ironwood Sous-Vide Wand X",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "790",
+    "name": "Meridian Blender X",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "791",
+    "name": "Cobalt Toaster X",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "792",
+    "name": "Auralite Air Fryer X",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "793",
+    "name": "Vista Trail Runners X",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "794",
+    "name": "Amperage Approach Shoe X",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "795",
+    "name": "Domus Recovery Slide X",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "796",
+    "name": "Basecamp Waterproof Boot X",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "797",
+    "name": "Copperpot Sneaker X",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "798",
+    "name": "Summit Hiking Boot X",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "799",
+    "name": "Nordkraft Sandal X",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "800",
+    "name": "Vantablack Cross Trainer X",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "801",
+    "name": "Larkspur Headphones XL",
+    "category": "AUDIO"
+  },
+  {
+    "id": "802",
+    "name": "Helix Earbuds XL",
+    "category": "AUDIO"
+  },
+  {
+    "id": "803",
+    "name": "Ironwood Speaker XL",
+    "category": "AUDIO"
+  },
+  {
+    "id": "804",
+    "name": "Meridian Soundbar XL",
+    "category": "AUDIO"
+  },
+  {
+    "id": "805",
+    "name": "Cobalt Microphone XL",
+    "category": "AUDIO"
+  },
+  {
+    "id": "806",
+    "name": "Auralite Turntable XL",
+    "category": "AUDIO"
+  },
+  {
+    "id": "807",
+    "name": "Vista Amplifier XL",
+    "category": "AUDIO"
+  },
+  {
+    "id": "808",
+    "name": "Amperage Receiver XL",
+    "category": "AUDIO"
+  },
+  {
+    "id": "809",
+    "name": "Domus Ultrabook XL",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "810",
+    "name": "Basecamp Notebook XL",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "811",
+    "name": "Copperpot Workstation XL",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "812",
+    "name": "Summit Cloudbook XL",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "813",
+    "name": "Nordkraft Convertible XL",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "814",
+    "name": "Vantablack Creatorbook XL",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "815",
+    "name": "Larkspur Slimbook XL",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "816",
+    "name": "Helix Gamebook XL",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "817",
+    "name": "Ironwood Smartwatch XL",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "818",
+    "name": "Meridian Fitness Band XL",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "819",
+    "name": "Cobalt Smart Ring XL",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "820",
+    "name": "Auralite AR Glasses XL",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "821",
+    "name": "Vista Running Watch XL",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "822",
+    "name": "Amperage Sleep Tracker XL",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "823",
+    "name": "Domus Field Watch XL",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "824",
+    "name": "Basecamp Dive Watch XL",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "825",
+    "name": "Copperpot Monitor XL",
+    "category": "MONITORS"
+  },
+  {
+    "id": "826",
+    "name": "Summit Ultrawide XL",
+    "category": "MONITORS"
+  },
+  {
+    "id": "827",
+    "name": "Nordkraft Portable Monitor XL",
+    "category": "MONITORS"
+  },
+  {
+    "id": "828",
+    "name": "Vantablack Gaming Monitor XL",
+    "category": "MONITORS"
+  },
+  {
+    "id": "829",
+    "name": "Larkspur Pro Display XL",
+    "category": "MONITORS"
+  },
+  {
+    "id": "830",
+    "name": "Helix Touch Monitor XL",
+    "category": "MONITORS"
+  },
+  {
+    "id": "831",
+    "name": "Ironwood Curved Monitor XL",
+    "category": "MONITORS"
+  },
+  {
+    "id": "832",
+    "name": "Meridian Field Monitor XL",
+    "category": "MONITORS"
+  },
+  {
+    "id": "833",
+    "name": "Cobalt Keyboard XL",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "834",
+    "name": "Auralite Mouse XL",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "835",
+    "name": "Vista Trackpad XL",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "836",
+    "name": "Amperage Webcam XL",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "837",
+    "name": "Domus Stream Controller XL",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "838",
+    "name": "Basecamp Numpad XL",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "839",
+    "name": "Copperpot Graphics Tablet XL",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "840",
+    "name": "Summit Docking Station XL",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "841",
+    "name": "Nordkraft Charger XL",
+    "category": "POWER"
+  },
+  {
+    "id": "842",
+    "name": "Vantablack Power Bank XL",
+    "category": "POWER"
+  },
+  {
+    "id": "843",
+    "name": "Larkspur Charging Pad XL",
+    "category": "POWER"
+  },
+  {
+    "id": "844",
+    "name": "Helix Surge Station XL",
+    "category": "POWER"
+  },
+  {
+    "id": "845",
+    "name": "Ironwood Solar Charger XL",
+    "category": "POWER"
+  },
+  {
+    "id": "846",
+    "name": "Meridian USB Hub XL",
+    "category": "POWER"
+  },
+  {
+    "id": "847",
+    "name": "Cobalt Cable Kit XL",
+    "category": "POWER"
+  },
+  {
+    "id": "848",
+    "name": "Auralite Travel Adapter XL",
+    "category": "POWER"
+  },
+  {
+    "id": "849",
+    "name": "Vista Thermostat XL",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "850",
+    "name": "Amperage Smart Bulb XL",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "851",
+    "name": "Domus Video Doorbell XL",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "852",
+    "name": "Basecamp Indoor Camera XL",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "853",
+    "name": "Copperpot Smart Plug XL",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "854",
+    "name": "Summit Motion Sensor XL",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "855",
+    "name": "Nordkraft Smart Lock XL",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "856",
+    "name": "Vantablack Bridge Hub XL",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "857",
+    "name": "Larkspur Backpack XL",
+    "category": "BAGS"
+  },
+  {
+    "id": "858",
+    "name": "Helix Messenger Bag XL",
+    "category": "BAGS"
+  },
+  {
+    "id": "859",
+    "name": "Ironwood Sling XL",
+    "category": "BAGS"
+  },
+  {
+    "id": "860",
+    "name": "Meridian Hardshell Case XL",
+    "category": "BAGS"
+  },
+  {
+    "id": "861",
+    "name": "Cobalt Sleeve XL",
+    "category": "BAGS"
+  },
+  {
+    "id": "862",
+    "name": "Auralite Duffel XL",
+    "category": "BAGS"
+  },
+  {
+    "id": "863",
+    "name": "Vista Tote XL",
+    "category": "BAGS"
+  },
+  {
+    "id": "864",
+    "name": "Amperage Pouch XL",
+    "category": "BAGS"
+  },
+  {
+    "id": "865",
+    "name": "Domus Kettle XL",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "866",
+    "name": "Basecamp Grinder XL",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "867",
+    "name": "Copperpot Skillet XL",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "868",
+    "name": "Summit Water Bottle XL",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "869",
+    "name": "Nordkraft Sous-Vide Wand XL",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "870",
+    "name": "Vantablack Blender XL",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "871",
+    "name": "Larkspur Toaster XL",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "872",
+    "name": "Helix Air Fryer XL",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "873",
+    "name": "Ironwood Trail Runners XL",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "874",
+    "name": "Meridian Approach Shoe XL",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "875",
+    "name": "Cobalt Recovery Slide XL",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "876",
+    "name": "Auralite Waterproof Boot XL",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "877",
+    "name": "Vista Sneaker XL",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "878",
+    "name": "Amperage Hiking Boot XL",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "879",
+    "name": "Domus Sandal XL",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "880",
+    "name": "Basecamp Cross Trainer XL",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "881",
+    "name": "Copperpot Headphones Studio",
+    "category": "AUDIO"
+  },
+  {
+    "id": "882",
+    "name": "Summit Earbuds Studio",
+    "category": "AUDIO"
+  },
+  {
+    "id": "883",
+    "name": "Nordkraft Speaker Studio",
+    "category": "AUDIO"
+  },
+  {
+    "id": "884",
+    "name": "Vantablack Soundbar Studio",
+    "category": "AUDIO"
+  },
+  {
+    "id": "885",
+    "name": "Larkspur Microphone Studio",
+    "category": "AUDIO"
+  },
+  {
+    "id": "886",
+    "name": "Helix Turntable Studio",
+    "category": "AUDIO"
+  },
+  {
+    "id": "887",
+    "name": "Ironwood Amplifier Studio",
+    "category": "AUDIO"
+  },
+  {
+    "id": "888",
+    "name": "Meridian Receiver Studio",
+    "category": "AUDIO"
+  },
+  {
+    "id": "889",
+    "name": "Cobalt Ultrabook Studio",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "890",
+    "name": "Auralite Notebook Studio",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "891",
+    "name": "Vista Workstation Studio",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "892",
+    "name": "Amperage Cloudbook Studio",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "893",
+    "name": "Domus Convertible Studio",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "894",
+    "name": "Basecamp Creatorbook Studio",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "895",
+    "name": "Copperpot Slimbook Studio",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "896",
+    "name": "Summit Gamebook Studio",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "897",
+    "name": "Nordkraft Smartwatch Studio",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "898",
+    "name": "Vantablack Fitness Band Studio",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "899",
+    "name": "Larkspur Smart Ring Studio",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "900",
+    "name": "Helix AR Glasses Studio",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "901",
+    "name": "Ironwood Running Watch Studio",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "902",
+    "name": "Meridian Sleep Tracker Studio",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "903",
+    "name": "Cobalt Field Watch Studio",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "904",
+    "name": "Auralite Dive Watch Studio",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "905",
+    "name": "Vista Monitor Studio",
+    "category": "MONITORS"
+  },
+  {
+    "id": "906",
+    "name": "Amperage Ultrawide Studio",
+    "category": "MONITORS"
+  },
+  {
+    "id": "907",
+    "name": "Domus Portable Monitor Studio",
+    "category": "MONITORS"
+  },
+  {
+    "id": "908",
+    "name": "Basecamp Gaming Monitor Studio",
+    "category": "MONITORS"
+  },
+  {
+    "id": "909",
+    "name": "Copperpot Pro Display Studio",
+    "category": "MONITORS"
+  },
+  {
+    "id": "910",
+    "name": "Summit Touch Monitor Studio",
+    "category": "MONITORS"
+  },
+  {
+    "id": "911",
+    "name": "Nordkraft Curved Monitor Studio",
+    "category": "MONITORS"
+  },
+  {
+    "id": "912",
+    "name": "Vantablack Field Monitor Studio",
+    "category": "MONITORS"
+  },
+  {
+    "id": "913",
+    "name": "Larkspur Keyboard Studio",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "914",
+    "name": "Helix Mouse Studio",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "915",
+    "name": "Ironwood Trackpad Studio",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "916",
+    "name": "Meridian Webcam Studio",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "917",
+    "name": "Cobalt Stream Controller Studio",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "918",
+    "name": "Auralite Numpad Studio",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "919",
+    "name": "Vista Graphics Tablet Studio",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "920",
+    "name": "Amperage Docking Station Studio",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "921",
+    "name": "Domus Charger Studio",
+    "category": "POWER"
+  },
+  {
+    "id": "922",
+    "name": "Basecamp Power Bank Studio",
+    "category": "POWER"
+  },
+  {
+    "id": "923",
+    "name": "Copperpot Charging Pad Studio",
+    "category": "POWER"
+  },
+  {
+    "id": "924",
+    "name": "Summit Surge Station Studio",
+    "category": "POWER"
+  },
+  {
+    "id": "925",
+    "name": "Nordkraft Solar Charger Studio",
+    "category": "POWER"
+  },
+  {
+    "id": "926",
+    "name": "Vantablack USB Hub Studio",
+    "category": "POWER"
+  },
+  {
+    "id": "927",
+    "name": "Larkspur Cable Kit Studio",
+    "category": "POWER"
+  },
+  {
+    "id": "928",
+    "name": "Helix Travel Adapter Studio",
+    "category": "POWER"
+  },
+  {
+    "id": "929",
+    "name": "Ironwood Thermostat Studio",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "930",
+    "name": "Meridian Smart Bulb Studio",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "931",
+    "name": "Cobalt Video Doorbell Studio",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "932",
+    "name": "Auralite Indoor Camera Studio",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "933",
+    "name": "Vista Smart Plug Studio",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "934",
+    "name": "Amperage Motion Sensor Studio",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "935",
+    "name": "Domus Smart Lock Studio",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "936",
+    "name": "Basecamp Bridge Hub Studio",
+    "category": "SMART HOME"
+  },
+  {
+    "id": "937",
+    "name": "Copperpot Backpack Studio",
+    "category": "BAGS"
+  },
+  {
+    "id": "938",
+    "name": "Summit Messenger Bag Studio",
+    "category": "BAGS"
+  },
+  {
+    "id": "939",
+    "name": "Nordkraft Sling Studio",
+    "category": "BAGS"
+  },
+  {
+    "id": "940",
+    "name": "Vantablack Hardshell Case Studio",
+    "category": "BAGS"
+  },
+  {
+    "id": "941",
+    "name": "Larkspur Sleeve Studio",
+    "category": "BAGS"
+  },
+  {
+    "id": "942",
+    "name": "Helix Duffel Studio",
+    "category": "BAGS"
+  },
+  {
+    "id": "943",
+    "name": "Ironwood Tote Studio",
+    "category": "BAGS"
+  },
+  {
+    "id": "944",
+    "name": "Meridian Pouch Studio",
+    "category": "BAGS"
+  },
+  {
+    "id": "945",
+    "name": "Cobalt Kettle Studio",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "946",
+    "name": "Auralite Grinder Studio",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "947",
+    "name": "Vista Skillet Studio",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "948",
+    "name": "Amperage Water Bottle Studio",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "949",
+    "name": "Domus Sous-Vide Wand Studio",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "950",
+    "name": "Basecamp Blender Studio",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "951",
+    "name": "Copperpot Toaster Studio",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "952",
+    "name": "Summit Air Fryer Studio",
+    "category": "KITCHEN"
+  },
+  {
+    "id": "953",
+    "name": "Nordkraft Trail Runners Studio",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "954",
+    "name": "Vantablack Approach Shoe Studio",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "955",
+    "name": "Larkspur Recovery Slide Studio",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "956",
+    "name": "Helix Waterproof Boot Studio",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "957",
+    "name": "Ironwood Sneaker Studio",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "958",
+    "name": "Meridian Hiking Boot Studio",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "959",
+    "name": "Cobalt Sandal Studio",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "960",
+    "name": "Auralite Cross Trainer Studio",
+    "category": "FOOTWEAR"
+  },
+  {
+    "id": "961",
+    "name": "Vista Headphones Neo",
+    "category": "AUDIO"
+  },
+  {
+    "id": "962",
+    "name": "Amperage Earbuds Neo",
+    "category": "AUDIO"
+  },
+  {
+    "id": "963",
+    "name": "Domus Speaker Neo",
+    "category": "AUDIO"
+  },
+  {
+    "id": "964",
+    "name": "Basecamp Soundbar Neo",
+    "category": "AUDIO"
+  },
+  {
+    "id": "965",
+    "name": "Copperpot Microphone Neo",
+    "category": "AUDIO"
+  },
+  {
+    "id": "966",
+    "name": "Summit Turntable Neo",
+    "category": "AUDIO"
+  },
+  {
+    "id": "967",
+    "name": "Nordkraft Amplifier Neo",
+    "category": "AUDIO"
+  },
+  {
+    "id": "968",
+    "name": "Vantablack Receiver Neo",
+    "category": "AUDIO"
+  },
+  {
+    "id": "969",
+    "name": "Larkspur Ultrabook Neo",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "970",
+    "name": "Helix Notebook Neo",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "971",
+    "name": "Ironwood Workstation Neo",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "972",
+    "name": "Meridian Cloudbook Neo",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "973",
+    "name": "Cobalt Convertible Neo",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "974",
+    "name": "Auralite Creatorbook Neo",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "975",
+    "name": "Vista Slimbook Neo",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "976",
+    "name": "Amperage Gamebook Neo",
+    "category": "LAPTOPS"
+  },
+  {
+    "id": "977",
+    "name": "Domus Smartwatch Neo",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "978",
+    "name": "Basecamp Fitness Band Neo",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "979",
+    "name": "Copperpot Smart Ring Neo",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "980",
+    "name": "Summit AR Glasses Neo",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "981",
+    "name": "Nordkraft Running Watch Neo",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "982",
+    "name": "Vantablack Sleep Tracker Neo",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "983",
+    "name": "Larkspur Field Watch Neo",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "984",
+    "name": "Helix Dive Watch Neo",
+    "category": "WEARABLES"
+  },
+  {
+    "id": "985",
+    "name": "Ironwood Monitor Neo",
+    "category": "MONITORS"
+  },
+  {
+    "id": "986",
+    "name": "Meridian Ultrawide Neo",
+    "category": "MONITORS"
+  },
+  {
+    "id": "987",
+    "name": "Cobalt Portable Monitor Neo",
+    "category": "MONITORS"
+  },
+  {
+    "id": "988",
+    "name": "Auralite Gaming Monitor Neo",
+    "category": "MONITORS"
+  },
+  {
+    "id": "989",
+    "name": "Vista Pro Display Neo",
+    "category": "MONITORS"
+  },
+  {
+    "id": "990",
+    "name": "Amperage Touch Monitor Neo",
+    "category": "MONITORS"
+  },
+  {
+    "id": "991",
+    "name": "Domus Curved Monitor Neo",
+    "category": "MONITORS"
+  },
+  {
+    "id": "992",
+    "name": "Basecamp Field Monitor Neo",
+    "category": "MONITORS"
+  },
+  {
+    "id": "993",
+    "name": "Copperpot Keyboard Neo",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "994",
+    "name": "Summit Mouse Neo",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "995",
+    "name": "Nordkraft Trackpad Neo",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "996",
+    "name": "Vantablack Webcam Neo",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "997",
+    "name": "Larkspur Stream Controller Neo",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "998",
+    "name": "Helix Numpad Neo",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "999",
+    "name": "Ironwood Graphics Tablet Neo",
+    "category": "PERIPHERALS"
+  },
+  {
+    "id": "1000",
+    "name": "Meridian Docking Station Neo",
+    "category": "PERIPHERALS"
+  }
+]
