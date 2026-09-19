@@ -288,6 +288,10 @@ app.post('/api/products/:id/scrape-now', async (req, res) => {
   }
 });
 
+app.get('/health', (_req, res) => {
+  res.status(200).json({ status: 'ok' });
+});
+
 /**
  * Runs one full (retried) scrape for a product, writes every attempt to
  * scrape_log, and - only on success - writes the resulting reading to
