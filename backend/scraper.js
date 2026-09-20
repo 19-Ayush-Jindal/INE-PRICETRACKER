@@ -79,7 +79,22 @@ async function attemptReveal(page, productId, { attemptTimeoutMs = 50000 } = {})
     const textBeforeThisAttempt = cleanText(await priceBlock.innerText());
     const alreadyInFlight = textBeforeThisAttempt.includes('Loading');
 
-    if (!alreadyInFlight) {
+    // Some product pages load with the price ALREADY revealed (a "Refresh
+    // price" button instead of "Reveal price") rather than hidden behind a
+    // click - a second UI state this site serves on some loads. Trying to
+    // hover/click a "Reveal price" button that doesn't exist on THIS page
+    // was throwing, getting swallowed by the isDisabled() catch, and
+    // getting misread as "button still disabled" for the full 2-second
+    // poll, every attempt, until all retries were burned on nothing even
+    // though the real price was already sitting on the page the whole
+    // time. If the price is already showing, skip the reveal step
+    // entirely and let the polling below (step 3) just read it.
+    const alreadyRevealed =
+      textBeforeThisAttempt.includes('₹') &&
+      !textBeforeThisAttempt.includes('Loading') &&
+      !textBeforeThisAttempt.includes('Price hidden');
+
+    if (!alreadyInFlight && !alreadyRevealed) {
 
       const box = await priceBlock.boundingBox();
       if (!box) throw new Error('Price block has no visible bounding box.');
