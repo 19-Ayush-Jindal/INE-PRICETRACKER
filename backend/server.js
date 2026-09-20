@@ -136,19 +136,19 @@ app.post('/api/cron/scrape-all', async (req, res) => {
     trackedProducts = allTrackedProducts.filter((product) => requestedIds.has(product.product_id));
   }
 
+
+  const batchRunId = crypto.randomUUID();
+
   const results = await mapWithConcurrencyLimit(trackedProducts, SCRAPE_CONCURRENCY, async (product) => {
     try {
-      const result = await scrapeOneProductAndRecord(product.product_id, product.product_name);
+      const result = await scrapeOneProductAndRecord(product.product_id, product.product_name, batchRunId);
       return { productId: product.product_id, ok: true, price: result.price };
     } catch (err) {
-      // Deliberately still recorded above (scrapeOneProductAndRecord writes
-      // to scrape_log even on failure) - this catch is just so ONE
-      // product's total failure doesn't stop the rest of the batch.
       return { productId: product.product_id, ok: false, error: err.message };
     }
   });
 
-  res.json({ scrapedAt: new Date().toISOString(), concurrency: SCRAPE_CONCURRENCY, results });
+  res.json({ scrapedAt: new Date().toISOString(), runId: batchRunId, concurrency: SCRAPE_CONCURRENCY, results });
 });
 
 
@@ -185,8 +185,8 @@ app.get('/health', (_req, res) => {
 });
 
 
-async function scrapeOneProductAndRecord(productId, productName) {
-  const runId = crypto.randomUUID();
+async function scrapeOneProductAndRecord(productId, productName, sharedRunId = null) {
+  const runId = sharedRunId || crypto.randomUUID();
   const browser = await chromium.launch({ headless: true });
 
   try {
