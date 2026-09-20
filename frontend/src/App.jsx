@@ -19,28 +19,34 @@ export default function App() {
     setLogs(logsRes.logs);
   }, []);
 
-  // When a product is picked from the search dropdown: start tracking it
-  // (which also runs an immediate first scrape on the backend), then load
-  // whatever history/log data exists for it.
-  async function handleSelectProduct(product) {
-    setSelectedProduct(product);
-    setIsLoading(true);
-    setStatusMessage(`Tracking "${product.name}" and running a first scrape - this can take up to ~15 seconds...`);
 
-    try {
-      const { firstScrapeError } = await trackProduct(product.id);
-      setStatusMessage(
-        firstScrapeError
-          ? `Tracking started, but the first scrape failed (${firstScrapeError}). It'll retry on the next scheduled run.`
-          : ''
-      );
-      await loadHistoryAndLogs(product.id);
-    } catch (err) {
-      setStatusMessage(`Something went wrong: ${err.message}`);
-    } finally {
-      setIsLoading(false);
-    }
+async function handleSelectProduct(product) {
+  setSelectedProduct(product);
+  setStatusMessage('');
+
+  try {
+    await loadHistoryAndLogs(product.id);
+  } catch (err) {
+    setStatusMessage(`Could not load existing history: ${err.message}`);
   }
+
+  setIsLoading(true);
+  setStatusMessage('Fetching the latest price...');
+  try {
+    const { firstScrapeError } = await trackProduct(product.id);
+    setStatusMessage(
+      firstScrapeError
+        ? `Latest fetch failed (${firstScrapeError}). It'll retry on the next scheduled run.`
+        : ''
+    );
+    await loadHistoryAndLogs(product.id);
+  } catch (err) {
+    setStatusMessage(`Something went wrong fetching the latest price: ${err.message}`);
+  } finally {
+    setIsLoading(false);
+  }
+}
+  
 
   async function handleScrapeNow() {
     if (!selectedProduct) return;
