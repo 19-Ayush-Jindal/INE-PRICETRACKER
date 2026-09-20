@@ -1,100 +1,91 @@
 # Design note: making the scraper reliable
 
-## What the store actually does to resist scraping
+## How I found the real problem before writing any code
 
-Before writing any retry logic, I spent time just watching the site's
-Network tab by hand. It's doing more than one thing to make scraping hard:
+I explored the target site myself first, in Chrome DevTools, before asking
+an AI tool to write anything:
 
-1. The price API (`GET /api/products/:id/price`) is gated behind a
-   client-side proof-of-work challenge. `GET /api/challenge` returns a WASM
-   blob plus a salt/difficulty; the page's own JS solves it and trades the
-   answer at `/api/session` for a bearer token before the price call is
-   allowed.
-2. Even once authenticated, the price response body is an encrypted blob
-   (`{ productId, v, e, serverTime }`) - there's no plaintext price on the
-   wire anywhere. Only the page's own JS can turn `e` into a number.
-3. The rendered price text has zero-width characters (`​` etc.) woven
-   between the digits, to break naive copy/paste or text-scraping of the
-   DOM.
-4. The cookie-consent banner can reappear mid-session, not just once at
-   page load.
-5. The price API intentionally returns occasional `5xx` errors on top of
-   ordinary slowness.
+- Tried hitting a price endpoint directly (`GET /api/products/:id/price`)
+  with no browser - rejected outright. No plaintext price over plain HTTP.
+- Checked the product/catalog endpoint (`GET /api/products/:id`) - that one
+  works with no auth, so only the *price* is protected.
+- Opened a product page with Network tab recording and clicked "Reveal
+  price" myself. It's two calls, not one: a **"challenge"** call
+  (`GET /api/challenge`, hands back a proof-of-work puzzle) followed by a
+  **"price"** call that only succeeds once the page's own JS solves that
+  challenge and trades it for a session token. Even then the price comes
+  back as an encrypted blob, not a plain number.
 
-Given (1) and (2), I decided against reverse-engineering the WASM solver
-and whatever decodes `e` - that would be fragile and would break the moment
-either detail changed. Instead I drive a real (Playwright) browser and read
-whatever price the page itself renders, the same way a human visitor would.
-That's a real trade-off: it's slower per lookup (several seconds, sometimes
-more with retries) than a plain HTTP request would be, and it costs more
-memory/CPU per scrape. I accepted that cost because it doesn't depend on
-private wire-format details that could change without notice.
+That finding is why I decided the scraper had to drive a real browser
+(Playwright) end to end and read whatever the page itself renders, rather
+than reverse-engineer the challenge solver or the encrypted response -
+fragile, and would break the moment either detail changed.
 
-## What the AI assistant got wrong on the first pass, and how it got fixed
+## Mistakes I caught and corrected
 
-**Assumed hovering alone reveals the price.** The first version hovered
-over the price box and then just polled the DOM for a rendered price. That
-matched what I'd seen watching the network tab by hand in one browser
-session - but it turned out that specific session had gotten lucky. Testing
-the actual generated script against the real site showed hovering only
-*enables* the "Reveal price" button (the subtext changes from "Hover over
-the price area..." to "Check the current price and availability") - it
-does **not** fetch anything by itself. The fix was to explicitly wait for
-the button to become enabled after hovering, then click it, and only then
-start polling for the result.
+**Hover alone doesn't fetch anything.** The first version polled the DOM
+right after hovering. I tested it against the real site and found hovering
+only enables the "Reveal price" button - you still have to click it. Fixed
+by waiting for the button to enable, then clicking, then polling.
 
-**Missed the zero-width characters at first.** Early parsing logic matched
-`₹` amounts directly against the raw DOM text and got inconsistent results
-- amounts that looked identical printed to two different numbers depending
-on how they were compared. Inspecting the raw string (not just the
-console-rendered text) showed zero-width space characters
-(`​`/`‌`/`‍`/`﻿`) inserted between individual digits.
-The fix was a `cleanText()` step that strips those characters before any
-parsing happens, and every price-reading path in the app routes through it.
+**Zero-width characters in the price text.** Amounts that looked identical
+were parsing to different numbers. I inspected the raw string and found
+zero-width characters woven between digits. Fixed with a `cleanText()` step
+used everywhere a price is read.
 
-**Treated the reveal as a one-shot action.** The first retry-free version
-worked when the site behaved, but real runs showed the cookie banner
-reappearing mid-flow (blocking the hover/click) and the price API
-occasionally returning `5xx`. Both would silently produce "Price hidden"
-forever with no error, which is exactly the "silently stop or store
-incorrect data" failure mode the assignment explicitly calls out. The fix
-was twofold: call the cookie-dismissal check at several points in the flow
-instead of once at page load, and wrap the whole hover -> click -> poll
-cycle in a retry loop (`scrapeProductWithRetries` in `backend/scraper.js`)
-that watches the actual HTTP status of the price API call and gives up
-early on a `5xx` rather than waiting out the full timeout.
+**Reveal treated as one-shot.** Real runs showed the cookie banner
+reappearing mid-flow and the price API returning occasional `5xx`s, both
+silently producing "Price hidden" forever. I asked for retries with an
+honest per-attempt log instead of hiding the failure.
 
-**Started out logging only the final outcome.** The first design only
-wrote one row per scheduled scrape (success or failure). The assignment
-asks for a log of "every scrape attempt... success, retried, or failed" -
-so `onAttempt()` was added as a callback into the retry loop itself, and
-`scrape_log` now gets one row per *attempt*, not per run. A run that
-succeeded on the third try shows two `retried` rows followed by one
-`success` row, rather than a single row that hides how much trouble it
-took to get there.
+**Untraceable batch runs.** Every scrape in a 2-hourly batch got its own
+random id, so I couldn't look up "everything from the 5:30pm run" together.
+I asked for one shared `run_id` per batch.
 
-## Reliability decisions in the final version
+**A price that didn't match the real site.** I noticed a logged ₹4 on a
+product that actually cost thousands - the price renders digit-by-digit and
+the code accepted a half-finished animation frame. Fixed by requiring the
+same reading twice in a row before trusting it.
 
-- **Every attempt is logged, success or not** (`scrape_log`), and a
-  `price_history` row is only ever written on an actual successful,
-  fully-parsed reading - a failed attempt never produces a partial or
-  guessed data point.
-- **Retries with backoff** (`backend/scraper.js`, `scrapeProductWithRetries`):
-  up to 4 attempts per scheduled scrape, each in a fresh browser context (so
-  one attempt's broken state - e.g. an open cookie banner - can't carry
-  into the next), with a small increasing delay between attempts.
-- **Fail loud, not silent.** If every attempt fails, the route still
-  responds/logs the failure explicitly rather than swallowing the error -
-  nothing pretends a scrape succeeded when it didn't.
-- **Scheduling is HTTP-triggered**, not an in-process timer, specifically
-  because Render's free tier sleeps - see the README for why.
+**"Button doesn't exist" read as "button is disabled."** I recorded a
+product failing all 5 attempts even though the price was clearly already
+visible on screen. Some product pages load with the price already revealed
+(no "Reveal price" button at all), and `.isDisabled().catch(() => true)`
+treated "button not found" the same as "button disabled," burning every
+retry hunting for a button that would never appear. I caught this from the
+recording and asked why it failed "even though the reveal button was
+handled" - fixed with an explicit already-revealed check.
 
-## What I'd improve with more time
+**Frontend hid existing history behind a fresh scrape.** Selecting a
+product blocked on a ~15s live scrape *before* loading its existing history
+from the database, so a product with months of data sat on a blank screen
+the whole time. I asked for history to load first, scrape to run after. The
+first attempt at this fix still didn't work - I verified it properly by
+testing on a product I already knew had history (not a brand-new one) and
+recording the chart still rendering empty for several seconds before it
+loaded, which is what proved the fix wasn't actually live yet (see below).
 
-- Change detection: hashing the page's structural selectors (`.price-block`,
-  the reveal button's markup) and flagging in the scrape log when they
-  change, so a future site redesign is caught rather than silently causing
-  every scrape to fail the same way.
-- Running multiple tracked products' scrapes concurrently (with a
-  concurrency cap) rather than strictly one at a time, to keep a large
-  tracked list finishing well within the 2-hour window.
+## A pitfall that wasn't a code bug: silent non-deployment
+
+Every fix above was committed and pushed to GitHub, but none of it reached
+the live Vercel site - it kept behaving like the first version. I tracked
+it down myself by checking Vercel's Deployments tab (only one deployment,
+ever) and then its Git settings: Vercel was connected to a different,
+similarly-named repo (`inepricetracker`) than the one I was actually
+pushing to (`INE-PRICETRACKER`). Pushes succeeded on GitHub every time;
+they just never triggered a deploy. Worth flagging because it looks exactly
+like a broken fix from the outside.
+
+## Key decisions
+
+- Every scrape *attempt* is logged (success, retried, or failed) - only a
+  fully successful read ever writes a `price_history` row.
+- Up to 4 attempts per scrape, each on the same loaded page rather than a
+  fresh reload, since reloading re-rolled the cookie-banner timing race.
+- Scheduling is HTTP-triggered (`POST /api/cron/scrape-all` from
+  cron-job.org), not an in-process timer, because Render's free tier sleeps.
+- All products are seeded into the tracked list at startup, not just ones a
+  user searches for, so every product has history from day one.
+- Batch scrapes run at a bounded concurrency (`SCRAPE_CONCURRENCY`), default
+  5) - fast enough to finish 1,000 products inside the 2-hour window
+  without running a free-tier instance out of memory.
