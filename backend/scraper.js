@@ -106,9 +106,25 @@ async function attemptReveal(page, productId, { attemptTimeoutMs = 50000 } = {})
     let text = await priceBlock.innerText();
     while (Date.now() < deadline) {
       const cleaned = cleanText(text);
-      if (cleaned.includes('₹') && !cleaned.includes('Loading') && !cleaned.includes('Price hidden')) {
-        return { ...parsePriceBlockText(text), httpStatus: priceApiStatus };
+      const looksComplete = cleaned.includes('₹') && !cleaned.includes('Loading') && !cleaned.includes('Price hidden');
+
+      if (looksComplete) {
+        // The price can render in via a digit-by-digit reveal animation, so
+        // text that already has a "₹" and no "Loading"/"Price hidden"
+        // placeholder isn't necessarily the FINAL number yet - it could be
+        // a partial in-progress frame (e.g. "₹4" on its way to becoming
+        // "₹4,026"). A real mismatch we saw (a notebook briefly recorded at
+        // ₹4) matches this exactly. Wait a beat and re-read; only trust the
+        // text once it's identical two reads in a row.
+        await page.waitForTimeout(300);
+        const confirmText = await priceBlock.innerText();
+        if (cleanText(confirmText) === cleaned) {
+          return { ...parsePriceBlockText(confirmText), httpStatus: priceApiStatus };
+        }
+        text = confirmText;
+        continue;
       }
+
       if (priceApiStatus && priceApiStatus >= 500) {
         throw new Error(`Price API returned HTTP ${priceApiStatus}`);
       }
